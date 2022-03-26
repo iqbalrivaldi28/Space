@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roket Persiapan</title>
+
+    <style>
+      body {
+        background-color: #252734;
+      }
+      h1 {
+        color: #ff9100;
+        font-size: 6em;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span id="waktu">5</span></h1>
+
+    <!-- My Javascript -->
+    <script>
+      let waktu = 5;
+
+      setInterval(function () {
+        waktu--;
+        if (waktu < 0) {
+          window.location = 'https://iqbalrivaldi28.github.io/Animasi-Roket/';
+        } else {
+          document.getElementById('waktu').innerHTML = waktu;
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

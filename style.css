@@ -1,0 +1,118 @@
+/* h1 {
+    color: #212529;
+    color: #4380b1;
+} */
+
+body {
+  background-color: #252734;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.tulisan {
+  align-items: center;
+}
+
+h1 {
+  color: #ff9100;
+  font-weight: bold !important;
+  font-size: 72px !important;
+}
+
+.btn-custom {
+  background-color: #ff9100;
+  color: white;
+  justify-content: center !important;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+button a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width :500px) {
+  h1 {
+    font-size: 40px !important;
+  }
+
+  p {
+    font-size: 11px !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* untuk layar device berukuran kecil
+@media screen and (min-width: 450px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 5rem;
+  }
+}
+
+/* untuk layar device berukuran sedang*/
+/* @media screen and (min-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 5rem;
+  }
+} */
+
+/*untuk layar device berukuran besar*/
+/* @media screen and (min-width: 800px) {
+} */ */
+
+/* @media only screen and (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+} */
